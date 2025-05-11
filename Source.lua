@@ -1532,7 +1532,7 @@ function Neverlose_Main:Window(config)
     BuildTypeText.Position = UDim2.new(0.0666666701, 0, 0.12350598, 0)
     BuildTypeText.Size = UDim2.new(0, 35, 0, 18)
     BuildTypeText.Font = Enum.Font.GothamBold
-    BuildTypeText.Text = "Build type: "..BuildInfo:BuildType()..""
+    BuildTypeText.Text = "Build type: "
     BuildTypeText.TextColor3 = Color3.fromRGB(255, 255, 255)
     BuildTypeText.TextSize = 14.000
     BuildTypeText.TextXAlignment = Enum.TextXAlignment.Left
